@@ -1,5 +1,5 @@
 var config = {
-    style: 'map/style.json',
+    style: 'https://api.maptiler.com/maps/openstreetmap/style.json?key=pidjN9REwhSxPmTiMtkz',
     showMarkers: true,
     markerColor: '#3FB1CE',
     inset: true, // if inset map is set to true, legend will be disabled.
@@ -9,12 +9,12 @@ var config = {
     useCustomLayers: false, //set true for enabling custom layers from sources.js
     bookmarks: true,
     chapterReturn: true,
-    title: 'The Title Text of this Story',
+    title: 'Queer Philadelphia Mapping Project',
     logo: '',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
+    subtitle: '1950 - 2000',
+    byline: 'Max Gaida',
     mobileview: '<div id="rotate-mobile"><em>For optimal viewing of this storytelling map on mobile, rotate your device to a horizontal orientation.</em><br><br><img src="images/device.png">', // to add custom messaging in the header for mobile devices
-    footer: 'Source: source citations, etc.<br> Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
+    footer: 'Created as part of a fellowship at the Loretta C. Duckworth Scholars Studio, Temple University. Credit to Bob Skiba for the inspiration and a large portion of the data for this project.<br> Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
     chapters: [
         {
             id: 'slug-style-id',
